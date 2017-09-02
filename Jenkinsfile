@@ -1,6 +1,9 @@
 node {
+    stage('Checkout') {
+       checkout scm
+    }
+
     stage('Clean') {
-        def mvnHome = tool 'mvn'
-        bat "${mvnHome}/bin/mvn clean"
+        bat "mvnw.cmd clean"
     }
 }
