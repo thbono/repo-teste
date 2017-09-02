@@ -10,7 +10,7 @@ public class VersionController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String getVersion() {
-        return "development";
+        return "develop";
     }
 
 }
