@@ -1,5 +1,5 @@
 node {
     stage('clean') {
-        sh "mvn clean"
-    }    
+        sh "mvnw.cmd clean"
+    }
 }
