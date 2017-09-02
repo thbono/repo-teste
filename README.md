@@ -2,4 +2,4 @@
 
 Teste para FCV.
 
-Funcionalidade 1
+Funcionalidade 1.
